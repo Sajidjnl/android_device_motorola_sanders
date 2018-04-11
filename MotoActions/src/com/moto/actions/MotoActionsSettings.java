@@ -125,7 +125,7 @@ public class MotoActionsSettings {
             } else if (GESTURE_CHOP_CHOP_KEY.equals(key)) {
                 mChopChopEnabled = sharedPreferences.getBoolean(GESTURE_CHOP_CHOP_KEY, true);
             } else if (GESTURE_IR_WAKEUP_KEY.equals(key)) {
-                mIrWakeUpEnabled = sharedPreferences.getBoolean(GESTURE_IR_WAKEUP_KEY, false);
+                mIrWakeUpEnabled = sharedPreferences.getBoolean(GESTURE_IR_WAKEUP_KEY, true);
             } else if (GESTURE_PICK_UP_KEY.equals(key)) {
                 mPickUpGestureEnabled = sharedPreferences.getBoolean(GESTURE_PICK_UP_KEY, true);
             } else if (GESTURE_IR_SILENCER_KEY.equals(key)) {
