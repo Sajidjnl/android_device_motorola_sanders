@@ -19,7 +19,7 @@
 $(call inherit-product, device/motorola/sanders/full_sanders.mk)
 
 # Inherit some common CosmicOS stuff.
-$(call inherit-product, vendor/mdroid/common._full_phonemk)
+$(call inherit-product, vendor/mdroid/common_full_phone.mk)
 
 # Boot animation
 TARGET_SCREEN_WIDTH := 1080
