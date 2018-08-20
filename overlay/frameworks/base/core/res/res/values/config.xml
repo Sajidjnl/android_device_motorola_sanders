@@ -220,7 +220,7 @@
     <!-- Does the battery LED support multiple colors?
          Used to decide if the user can change the colors -->
     <bool name="config_multiColorBatteryLed">true</bool>
-    <add-resourcce type="bool" name="config_multiColorBatteryLed"></add-resource>
+    <add-resource type="bool" name="config_multiColorBatteryLed"></add-resource>
 
     <!-- Do the battery/notification LEDs support pulsing?
          Used to decide if we show pulse settings -->
