@@ -338,14 +338,7 @@
 
     <!-- Names of the key handler classes -->
     <string name="config_deviceKeyHandlerClass" translatable="false">com.moto.actions.KeyHandler</string>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
     <add-resource type="string" name="config_deviceKeyHandlerClass"></add-resource>
->>>>>>> 15e38ed... fixing small derp
-=======
-    <add-resource type="string" name="config_deviceKeyhandlerClass"></add-resource>
->>>>>>> b2f24bb... fix derp tags
 
     <!-- Is the notification LED intrusive? Used to decide if there should be a disable option -->
     <bool name="config_intrusiveNotificationLed">true</bool>
